@@ -42,11 +42,11 @@ router.post("/send-report", async (req, res) => {
       html: reportHtml,
     });
 
-    req.log.info({ to, studentName }, "Parent report email sent");
+    (req as any).log?.info ? (req as any).log.info({ to, studentName }, "Parent report email sent") : console.info("Parent report email sent", { to, studentName });
     res.json({ success: true, message: `Report sent to ${to}` });
   } catch (err: any) {
-    req.log.error({ err }, "Failed to send parent report email");
-    res.status(500).json({ success: false, message: `Failed to send: ${err.message}. Try copying the report instead.` });
+    (req as any).log?.error ? (req as any).log.error({ err }, "Failed to send parent report email") : console.error(err, "Failed to send parent report email");
+    res.status(500).json({ success: false, message: `Failed to send: ${err?.message || String(err)}. Try copying the report instead.` });
   }
 });
 
