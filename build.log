@@ -1,0 +1,31 @@
+artifacts/axyomis/src/components/AstraOrb3D.tsx(4,24): error TS7016: Could not find a declaration file for module 'three'. '/workspaces/Publish-Ready/node_modules/.pnpm/three@0.165.0/node_modules/three/build/three.module.js' implicitly has an 'any' type.
+  If the 'three' package actually exposes this module, consider sending a pull request to amend 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/three'
+artifacts/axyomis/src/components/AstraOrb3D.tsx(29,38): error TS2345: Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'Uint8Array<ArrayBuffer>'.
+  Type 'ArrayBufferLike' is not assignable to type 'ArrayBuffer'.
+    Type 'SharedArrayBuffer' is missing the following properties from type 'ArrayBuffer': resizable, resize, detached, transfer, transferToFixedLength
+artifacts/axyomis/src/components/AstraOrb3D.tsx(57,5): error TS2339: Property 'group' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(58,7): error TS2339: Property 'mesh' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(59,9): error TS2339: Property 'sphereGeometry' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(60,69): error TS2322: Type '{ ref: RefObject<any>; envMapIntensity: number; clearcoat: number; metalness: number; roughness: number; color: number; factor: number; speed: number; }' is not assignable to type 'IntrinsicAttributes & Omit<Props, "ref"> & RefAttributes<WobbleMaterialImpl>'.
+  Property 'clearcoat' does not exist on type 'IntrinsicAttributes & Omit<Props, "ref"> & RefAttributes<WobbleMaterialImpl>'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(61,7): error TS2339: Property 'mesh' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(63,74): error TS2322: Type '{ count: number; scale: [number, number, number]; noise: number; size: number; depth: number; speed: number; }' is not assignable to type 'IntrinsicAttributes & Omit<Props & Omit<ExtendedColors<Overwrite<Partial<Points<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material<...> | Material<...>[], Object3DEventMap>>, NodeProps<...>>>, NonFunctionKeys<...>> & { ...; } & EventHandlers, "ref"> & RefAttributes<...>'.
+  Property 'depth' does not exist on type 'IntrinsicAttributes & Omit<Props & Omit<ExtendedColors<Overwrite<Partial<Points<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material<...> | Material<...>[], Object3DEventMap>>, NodeProps<...>>>, NonFunctionKeys<...>> & { ...; } & EventHandlers, "ref"> & RefAttributes<...>'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(64,5): error TS2339: Property 'group' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(73,9): error TS2339: Property 'ambientLight' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(74,9): error TS2339: Property 'pointLight' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/AstraOrb3D.tsx(75,9): error TS2339: Property 'pointLight' does not exist on type 'JSX.IntrinsicElements'.
+artifacts/axyomis/src/components/ChapterReader.tsx(184,27): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ Nature: string[]; Fruits: string[]; Vegetables: string[]; Hygiene: string[]; Physics: string[]; Chemistry: string[]; Biology: string[]; Mathematics: string[]; diseases: string[]; }'.
+  No index signature with a parameter of type 'string' was found on type '{ Nature: string[]; Fruits: string[]; Vegetables: string[]; Hygiene: string[]; Physics: string[]; Chemistry: string[]; Biology: string[]; Mathematics: string[]; diseases: string[]; }'.
+artifacts/axyomis/src/components/ChapterReader.tsx(184,49): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ Nature: string[]; Fruits: string[]; Vegetables: string[]; Hygiene: string[]; Physics: string[]; Chemistry: string[]; Biology: string[]; Mathematics: string[]; diseases: string[]; }'.
+  No index signature with a parameter of type 'string' was found on type '{ Nature: string[]; Fruits: string[]; Vegetables: string[]; Hygiene: string[]; Physics: string[]; Chemistry: string[]; Biology: string[]; Mathematics: string[]; diseases: string[]; }'.
+artifacts/axyomis/src/components/ChapterReader.tsx(598,78): error TS2339: Property 'channelTitle' does not exist on type '{ id: string; title: string; thumbnail: string; }'.
+artifacts/axyomis/src/components/Chatbot.tsx(121,14): error TS2304: Cannot find name 'ChevronRight'.
+artifacts/axyomis/src/components/Chatbot.tsx(218,20): error TS2304: Cannot find name 'ChevronRight'.
+artifacts/axyomis/src/components/Chatbot.tsx(262,24): error TS2304: Cannot find name 'ChevronRight'.
+artifacts/axyomis/src/components/Chatbot.tsx(272,24): error TS2304: Cannot find name 'ChevronRight'.
+artifacts/axyomis/src/components/WeatherDashboard.tsx(4,63): error TS2694: Namespace 'JSX' has no exported member 'Element'.
+artifacts/api-server/src/routes/email.ts(45,9): error TS2339: Property 'log' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+artifacts/api-server/src/routes/email.ts(48,9): error TS2339: Property 'log' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+artifacts/api-server/src/routes/youtube.ts(60,9): error TS2339: Property 'log' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
+artifacts/api-server/src/routes/youtube.ts(101,9): error TS2339: Property 'log' does not exist on type 'Request<{}, any, any, ParsedQs, Record<string, any>>'.
